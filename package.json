@@ -1,0 +1,9 @@
+{
+  "name": "ethioworkers-landing",
+  "version": "1.0.0",
+  "description": "EthioWorkers modern responsive landing page",
+  "scripts": {
+    "build": "mkdir -p build && cp index.html style.css app.js build/"
+  },
+  "dependencies": {}
+}
