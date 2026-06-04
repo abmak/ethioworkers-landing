@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthioWorkers | Next-Gen Job Matching Platform</title>
+    <meta name="description" content="Discover top talent and premium career opportunities in Ethiopia. EthioWorkers connects top professionals with leading companies using intelligent matchmaking.">
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Effects -->
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" id="nav-logo">
+                <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
+                Ethio<span class="highlight">Workers</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#stats" class="nav-link">Stats</a></li>
+                    <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#cta" class="nav-btn-mobile">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#cta" class="btn btn-secondary" id="nav-login-btn">Sign In</a>
+                <a href="#cta" class="btn btn-primary" id="nav-cta-btn">Join Now</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge" id="hero-badge">
+                        <span class="badge-icon"><i class="fa-solid fa-sparkles"></i></span>
+                        Ethiopia's Leading Talent Network
+                    </div>
+                    <h1 class="hero-title" id="hero-main-title">
+                        Connecting Elite <span class="text-gradient">Ethiopian Talent</span> With Global Opportunities
+                    </h1>
+                    <p class="hero-subtitle" id="hero-sub-text">
+                        Supercharge your hiring process or accelerate your career with our AI-powered professional matching platform. Crafted for modern businesses and ambitious candidates.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#cta" class="btn btn-primary btn-large" id="hero-primary-cta">
+                            Find Top Talent <span class="btn-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="#how-it-works" class="btn btn-tertiary" id="hero-secondary-cta">
+                            <span class="play-icon"><i class="fa-solid fa-circle-play"></i></span> Learn How It Works
+                        </a>
+                    </div>
+                    <div class="hero-trust">
+                        <p>Trusted by leading tech and enterprise partners</p>
+                        <div class="trust-logos">
+                            <span><i class="fa-brands fa-google"></i> Google</span>
+                            <span><i class="fa-brands fa-microsoft"></i> Microsoft</span>
+                            <span><i class="fa-brands fa-aws"></i> AWS</span>
+                            <span><i class="fa-brands fa-stripe"></i> Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual" id="hero-image-container">
+                    <div class="glass-card hero-card shadow-lg">
+                        <div class="card-header">
+                            <div class="dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="card-title">Talent Pool Insights</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="talent-item">
+                                <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                                <div class="talent-info">
+                                    <h4>Senior Fullstack Engineer</h4>
+                                    <p>React, Node.js, AWS • Addis Ababa</p>
+                                </div>
+                                <span class="match-badge">98% Match</span>
+                            </div>
+                            <div class="talent-item">
+                                <div class="avatar"><i class="fa-solid fa-user-gear"></i></div>
+                                <div class="talent-info">
+                                    <h4>DevOps Specialist</h4>
+                                    <p>Docker, Kubernetes, CI/CD • Remote</p>
+                                </div>
+                                <span class="match-badge">95% Match</span>
+                            </div>
+                            <div class="talent-item">
+                                <div class="avatar"><i class="fa-solid fa-user-pen"></i></div>
+                                <div class="talent-info">
+                                    <h4>UI/UX Product Designer</h4>
+                                    <p>Figma, Design Systems • Part-Time</p>
+                                </div>
+                                <span class="match-badge">92% Match</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Platform Features</span>
+                    <h2 class="section-title">Built for the Modern Workforce</h2>
+                    <p class="section-subtitle">Experience a streamlined hiring lifecycle with powerful modern tools designed to find the perfect professional fit.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon bg-gradient-1"><i class="fa-solid fa-brain"></i></div>
+                        <h3>AI Matchmaking</h3>
+                        <p>Our intelligent system evaluates skill graphs and experience to deliver exceptionally compatible candidate suggestions.</p>
+                    </div>
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon bg-gradient-2"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>Verified Profiles</h3>
+                        <p>Say goodbye to resume inflation. Every top-tier professional on our platform undergoes a robust identity and skill verification process.</p>
+                    </div>
+                    <div class="glass-card feature-card">
+                        <div class="feature-icon bg-gradient-3"><i class="fa-solid fa-comments"></i></div>
+                        <h3>Seamless Messaging</h3>
+                        <p>Connect instantly through integrated, secure communication channels. Schedule interviews and share feedback dynamically.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section" id="stats">
+            <div class="container stats-container">
+                <div class="stat-box">
+                    <h3 class="stat-number" data-target="15000">0</h3>
+                    <p class="stat-label">Active Talents</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="stat-number" data-target="350">0</h3>
+                    <p class="stat-label">Partner Companies</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="stat-number" data-target="98">0</h3>
+                    <p class="stat-label">Match Success Rate %</p>
+                </div>
+                <div class="stat-box">
+                    <h3 class="stat-number" data-target="2">0</h3>
+                    <p class="stat-label">Average Hire Time (Weeks)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works-section" id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Workflow</span>
+                    <h2 class="section-title">Getting Started is Simple</h2>
+                    <p class="section-subtitle">Whether you are hiring or looking for your next career step, our platform gets you moving in minutes.</p>
+                </div>
+                <div class="steps-container">
+                    <div class="step-card">
+                        <div class="step-num">1</div>
+                        <h3>Create Profile</h3>
+                        <p>Fill out your company requirements or build your professional profile highlighting core projects and tech stacks.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-num">2</div>
+                        <h3>Match & Discover</h3>
+                        <p>Let our recommendation engine highlight top fits, or browse our curated marketplace of verified professionals.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-num">3</div>
+                        <h3>Hire & Succeed</h3>
+                        <p>Conduct secure interviews, manage contract handshakes, and onboard your new team member smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Success Stories</span>
+                    <h2 class="section-title">What Our Partners Say</h2>
+                    <p class="section-subtitle">Hear from hiring managers and elite developers who have transformed their operations through our portal.</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="glass-card testimonial-card">
+                        <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="testimonial-text">"Finding verified software engineers in Addis Ababa used to take months. With EthioWorkers, we closed two critical senior engineering roles in under two weeks."</p>
+                        <div class="testimonial-user">
+                            <div class="user-avatar bg-gradient-1"><i class="fa-solid fa-user"></i></div>
+                            <div class="user-info">
+                                <h4>Yonas K.</h4>
+                                <p>CTO, Zemen Tech</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="glass-card testimonial-card">
+                        <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="testimonial-text">"As a remote UI developer, I struggled to find premium clients. The matching algorithm set me up with standard global projects that respect local timelines."</p>
+                        <div class="testimonial-user">
+                            <div class="user-avatar bg-gradient-2"><i class="fa-solid fa-user"></i></div>
+                            <div class="user-info">
+                                <h4>Selam W.</h4>
+                                <p>Senior Product Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="cta">
+            <div class="container cta-container">
+                <div class="glass-card cta-card">
+                    <div class="cta-grid">
+                        <div class="cta-info">
+                            <h2>Ready to Elevate Your Hiring Journey?</h2>
+                            <p>Join thousands of professionals and forward-thinking companies today. Get early access to premium platform features.</p>
+                            <ul class="cta-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Free profile setup & search</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Dedicated support account manager</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Cancel or upgrade anytime</li>
+                            </ul>
+                        </div>
+                        <div class="cta-form-container">
+                            <form id="cta-form" class="cta-form">
+                                <h3>Request Early Access</h3>
+                                <div class="form-group">
+                                    <label for="user-type">I want to...</label>
+                                    <select id="user-type" name="user-type" required class="form-control">
+                                        <option value="hire">Hire Top Talent</option>
+                                        <option value="work">Find Career Opportunities</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Work Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="name@company.com" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                    Join the Waitlist
+                                </button>
+                                <p class="form-footer">No credit card required. We respect your privacy.</p>
+                                <div id="form-message" class="form-message hidden"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
+                    Ethio<span class="highlight">Workers</span>
+                </a>
+                <p>Next-generation talent matching ecosystem for developers, designers, and managers in Ethiopia.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#stats">Stats & Metrics</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 EthioWorkers. Powered by Alet Cloud. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
